@@ -1,0 +1,80 @@
+{
+  "name": "JMTHON - USERBOT",
+  "description": "Arabic Userbot Powerful & Safe based on Telethon",
+  "logo": "",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/jmthonar1/userbot/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "ادخل اسمك هنا",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "ابب ايدي",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ايبي هاش",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "كود التيرمكس",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "معرف البوت",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": " توكن البوت - يجب وضع البوت انلاين مود",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "منطقتك",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس",
+      "value": "jmthonar1",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
