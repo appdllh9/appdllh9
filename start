@@ -4,7 +4,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "jmthonar1" ]]
+    if [[ $UPSTREAM_REPO == "jmthonarbot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL2ptdGhvbmFyMS91c2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -24,7 +24,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "jmthonar1" ]]
+    if [[ $UPSTREAM_REPO == "jmthonarbot" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL2ptdGhvbmFyMS91c2VyYm90L3RyZWUvbWFzdGVy" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -44,7 +44,7 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/jmthonar1/userbot"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/jmthonar/bot"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
