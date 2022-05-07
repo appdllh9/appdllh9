@@ -1,7 +1,7 @@
-FROM jmthonar1/userbot:alpine
+FROM jmthonar/bot:alpine
 
 #clonning repo 
-RUN git clone https://github.com/jmthonar1/userbot/tree/master.git /root/userbot
+RUN git clone https://github.com/jmthonar/bot/tree/master.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
