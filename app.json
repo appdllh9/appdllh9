@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jmthonar1/userbot/",
+  "repository": "https://github.com/jmthonar/bot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -52,7 +52,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس",
-      "value": "jmthonar1",
+      "value": "jmthonbot",
       "required": false
     }
   },
