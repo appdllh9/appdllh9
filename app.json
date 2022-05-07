@@ -12,31 +12,39 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "ادخل اسمك هنا",
+      "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
     "APP_ID": {
-      "description": "ابب ايدي",
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": "ايبي هاش",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغير هذه القيمه",
+      "value": "."
+    },
     "STRING_SESSION": {
-      "description": "كود التيرمكس",
+      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "معرف البوت",
+      "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": " توكن البوت - يجب وضع البوت انلاين مود",
+      "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
@@ -46,12 +54,12 @@
       "required": false
     },
     "TZ": {
-      "description": "منطقتك",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "رمز السورس",
+      "description": "رمز السورس لا تغيره ابدا",
       "value": "jmthonbot",
       "required": false
     }
