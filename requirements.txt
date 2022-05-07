@@ -3,6 +3,7 @@ setuptools
 wheel
 aiofiles
 aiohttp
+akinator.py
 beautifulsoup4
 cairosvg
 cfscrape
