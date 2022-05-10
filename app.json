@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "jmthonbot",
+      "value": "jmthonrz",
       "required": false
     }
   },
