@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      STRING_SESSION: $STRING_SESSION
+      TG_BOT_TOKEN: $TG_BOT_TOKEN
+      TG_BOT_USERNAME: $TG_BOT_USERNAME
+      DB_URI: $DB_URI
+      COMMAND_HAND_LER: $COMMAND_HAND_LER
