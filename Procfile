@@ -1,1 +1,1 @@
-worker: bash sbb_b
+worker: bash RR0R
