@@ -1,1 +1,1 @@
-worker: bash JASEM
+worker: bash JASEM1
